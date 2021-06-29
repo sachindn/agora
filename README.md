@@ -16,10 +16,10 @@ If you're on Laravel 5.4 or earlier, you'll need to add and comment line on conf
 
 ```php
 'providers' => array(
-    Codiant\Agora\AgoraServiceProvider::class
+    Codiant\Agora\AgoraServiceProvider::class,
 )
 ```
 ## 3.Publishing the vendor
 ```php
-php artisan vendor:publish Codiant\Agora\AgoraServiceProvider
+php artisan vendor:publish --provider="Codiant\Agora\AgoraServiceProvider"
 ```
