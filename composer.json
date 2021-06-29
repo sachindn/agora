@@ -2,7 +2,7 @@
     "name": "codiantnew/agora",
     "description": "This package is for communicating with agora.",
     "type": "libarary",
-    "license": "GPL",
+    "license": "GPL-3.0 License",
     "authors": [
         {
             "name": "Sachin Dev",
