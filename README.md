@@ -20,5 +20,6 @@ If you're on Laravel 5.4 or earlier, you'll need to add and comment line on conf
 )
 ```
 ## 3.Publishing the vendor
-
+```php
 php artisan vendor:publish Codiant\Agora\AgoraServiceProvider
+```
